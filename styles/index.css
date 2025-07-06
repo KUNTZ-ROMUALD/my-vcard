@@ -1,0 +1,45 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .vcard {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      width: 320px;
+      text-align: center;
+    }
+    .vcard img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .vcard h2 {
+      margin: 10px 0 5px;
+      font-size: 22px;
+    }
+    .vcard p {
+      margin: 0;
+      color: #777;
+    }
+    .vcard .contact {
+      margin: 15px 0;
+      font-size: 14px;
+    }
+    .vcard .contact a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    .vcard .social a {
+      margin: 0 8px;
+      color: #333;
+      font-size: 20px;
+      text-decoration: none;
+    }
