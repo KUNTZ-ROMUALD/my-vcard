@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>vCard - Carte de Visite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .vcard {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      width: 320px;
+      text-align: center;
+    }
+    .vcard img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .vcard h2 {
+      margin: 10px 0 5px;
+      font-size: 22px;
+    }
+    .vcard p {
+      margin: 0;
+      color: #777;
+    }
+    .vcard .contact {
+      margin: 15px 0;
+      font-size: 14px;
+    }
+    .vcard .contact a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    .vcard .social a {
+      margin: 0 8px;
+      color: #333;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="vcard">
+    <img src="https://via.placeholder.com/100" alt="Photo de profil">
+    <h2>kuntz romuald tollo</h2>
+    <p>Data scientist/developpeur IA</p>
+
+    <div class="contact">
+      📧 <a href="mailto:jean.dupont@email.com">kuntzromuald32@gmail.com</a><br>
+      📞 <a href="tel:+33123456789">+33 0782920401</a><br>
+      📍 Paris, France
+    </div>
+
+    <div class="social">
+      <a href="https://linkedin.com/in/jeandupont" target="_blank">🔗</a>
+      <a href="https://github.com/jeandupont" target="_blank">🐙</a>
+      <a href="https://twitter.com/jeandupont" target="_blank">🐦</a>
+    </div>
+  </div>
+
+</body>
+</html>
